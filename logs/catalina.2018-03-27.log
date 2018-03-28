@@ -1,0 +1,585 @@
+27-Mar-2018 16:56:09.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+27-Mar-2018 16:56:09.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+27-Mar-2018 16:56:09.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+27-Mar-2018 16:56:09.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Mar-2018 16:56:09.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.4
+27-Mar-2018 16:56:09.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-Mar-2018 16:56:09.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre
+27-Mar-2018 16:56:09.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_141-b15
+27-Mar-2018 16:56:09.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2018 16:56:09.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 16:56:09.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 16:56:09.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/conf/logging.properties
+27-Mar-2018 16:56:09.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2018 16:56:09.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2018 16:56:09.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2018 16:56:09.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Mar-2018 16:56:09.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 16:56:09.869 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 16:56:09.869 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/temp
+27-Mar-2018 16:56:09.869 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wangxiaolong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2018 16:56:10.067 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 16:56:10.099 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 16:56:10.108 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 16:56:10.109 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 16:56:10.110 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 815 ms
+27-Mar-2018 16:56:10.145 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Mar-2018 16:56:10.146 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+27-Mar-2018 16:56:10.159 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs]
+27-Mar-2018 16:56:10.583 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs] has finished in [424] ms
+27-Mar-2018 16:56:10.584 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager]
+27-Mar-2018 16:56:10.625 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager] has finished in [41] ms
+27-Mar-2018 16:56:10.626 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples]
+27-Mar-2018 16:56:10.956 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples] has finished in [330] ms
+27-Mar-2018 16:56:10.957 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT]
+27-Mar-2018 16:56:10.977 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT] has finished in [19] ms
+27-Mar-2018 16:56:10.977 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager]
+27-Mar-2018 16:56:10.994 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager] has finished in [17] ms
+27-Mar-2018 16:56:10.997 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 16:56:11.007 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 16:56:11.012 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 901 ms
+27-Mar-2018 16:58:11.060 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+27-Mar-2018 16:58:11.062 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+27-Mar-2018 16:58:11.118 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+27-Mar-2018 16:58:11.118 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+27-Mar-2018 16:58:11.118 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+27-Mar-2018 16:58:11.340 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+27-Mar-2018 16:58:11.340 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+27-Mar-2018 16:58:11.340 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+27-Mar-2018 16:58:11.366 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+27-Mar-2018 16:58:11.367 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+27-Mar-2018 16:58:11.367 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+27-Mar-2018 16:58:11.396 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+27-Mar-2018 16:58:11.396 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+27-Mar-2018 16:58:11.396 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+27-Mar-2018 16:58:11.414 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+27-Mar-2018 16:59:31.450 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin]
+27-Mar-2018 16:59:31.483 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin] has finished in [34] ms
+27-Mar-2018 16:59:51.494 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+27-Mar-2018 16:59:51.495 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+27-Mar-2018 16:59:51.521 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+27-Mar-2018 16:59:51.522 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/cgi-bin]
+27-Mar-2018 16:59:51.522 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] has started
+27-Mar-2018 16:59:51.536 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] is completed
+27-Mar-2018 16:59:51.536 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+27-Mar-2018 16:59:51.536 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+27-Mar-2018 16:59:51.741 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+27-Mar-2018 16:59:51.741 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+27-Mar-2018 16:59:51.741 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+27-Mar-2018 16:59:51.768 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+27-Mar-2018 16:59:51.768 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+27-Mar-2018 16:59:51.768 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+27-Mar-2018 16:59:51.801 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+27-Mar-2018 16:59:51.801 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+27-Mar-2018 16:59:51.801 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+27-Mar-2018 16:59:51.823 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+27-Mar-2018 17:00:01.825 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+27-Mar-2018 17:00:01.826 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+27-Mar-2018 17:00:01.852 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+27-Mar-2018 17:00:01.853 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/cgi-bin]
+27-Mar-2018 17:00:01.853 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] has started
+27-Mar-2018 17:00:01.881 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] is completed
+27-Mar-2018 17:00:01.882 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+27-Mar-2018 17:00:01.882 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+27-Mar-2018 17:00:02.036 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+27-Mar-2018 17:00:02.038 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+27-Mar-2018 17:00:02.038 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+27-Mar-2018 17:00:02.058 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+27-Mar-2018 17:00:02.058 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+27-Mar-2018 17:00:02.059 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+27-Mar-2018 17:00:02.082 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+27-Mar-2018 17:00:02.082 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+27-Mar-2018 17:00:02.082 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+27-Mar-2018 17:00:02.094 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+27-Mar-2018 17:00:09.010 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Mar-2018 17:00:09.010 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:00:09.067 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:00:09.122 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Mar-2018 17:00:09.155 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:00:09.158 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:00:09.159 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:00:09.160 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:00:11.624 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+27-Mar-2018 17:00:11.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+27-Mar-2018 17:00:11.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+27-Mar-2018 17:00:11.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Mar-2018 17:00:11.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.4
+27-Mar-2018 17:00:11.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-Mar-2018 17:00:11.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre
+27-Mar-2018 17:00:11.629 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_141-b15
+27-Mar-2018 17:00:11.629 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2018 17:00:11.629 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:00:11.629 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:00:11.630 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/conf/logging.properties
+27-Mar-2018 17:00:11.630 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2018 17:00:11.630 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2018 17:00:11.630 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2018 17:00:11.631 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Mar-2018 17:00:11.631 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:00:11.631 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:00:11.631 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/temp
+27-Mar-2018 17:00:11.631 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wangxiaolong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2018 17:00:11.770 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:00:11.790 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 17:00:11.798 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:00:11.800 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 17:00:11.800 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 617 ms
+27-Mar-2018 17:00:11.832 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Mar-2018 17:00:11.832 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+27-Mar-2018 17:00:11.843 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs]
+27-Mar-2018 17:00:12.198 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs] has finished in [354] ms
+27-Mar-2018 17:00:12.198 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager]
+27-Mar-2018 17:00:12.240 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager] has finished in [42] ms
+27-Mar-2018 17:00:12.240 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples]
+27-Mar-2018 17:00:12.564 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples] has finished in [323] ms
+27-Mar-2018 17:00:12.564 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT]
+27-Mar-2018 17:00:12.587 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT] has finished in [23] ms
+27-Mar-2018 17:00:12.588 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin]
+27-Mar-2018 17:00:12.619 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin] has finished in [31] ms
+27-Mar-2018 17:00:12.620 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager]
+27-Mar-2018 17:00:12.643 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager] has finished in [23] ms
+27-Mar-2018 17:00:12.647 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:00:12.657 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:00:12.659 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 858 ms
+27-Mar-2018 17:04:33.089 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Mar-2018 17:04:33.091 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:04:33.096 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:04:33.149 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Mar-2018 17:04:33.183 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:04:33.191 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:04:33.192 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:04:33.193 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:08:10.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+27-Mar-2018 17:08:10.054 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+27-Mar-2018 17:08:10.054 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+27-Mar-2018 17:08:10.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Mar-2018 17:08:10.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.4
+27-Mar-2018 17:08:10.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-Mar-2018 17:08:10.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre
+27-Mar-2018 17:08:10.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_141-b15
+27-Mar-2018 17:08:10.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2018 17:08:10.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:08:10.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:08:10.058 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/conf/logging.properties
+27-Mar-2018 17:08:10.058 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2018 17:08:10.058 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2018 17:08:10.058 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2018 17:08:10.058 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Mar-2018 17:08:10.059 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:08:10.059 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:08:10.059 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/temp
+27-Mar-2018 17:08:10.059 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wangxiaolong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2018 17:08:10.295 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:08:10.330 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 17:08:10.341 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:08:10.342 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 17:08:10.343 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1094 ms
+27-Mar-2018 17:08:10.386 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Mar-2018 17:08:10.386 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+27-Mar-2018 17:08:10.397 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs]
+27-Mar-2018 17:08:11.007 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs] has finished in [609] ms
+27-Mar-2018 17:08:11.008 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager]
+27-Mar-2018 17:08:11.085 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager] has finished in [76] ms
+27-Mar-2018 17:08:11.085 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples]
+27-Mar-2018 17:08:11.483 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples] has finished in [398] ms
+27-Mar-2018 17:08:11.483 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT]
+27-Mar-2018 17:08:11.503 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT] has finished in [20] ms
+27-Mar-2018 17:08:11.504 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin]
+27-Mar-2018 17:08:11.532 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin] has finished in [28] ms
+27-Mar-2018 17:08:11.533 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager]
+27-Mar-2018 17:08:11.554 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager] has finished in [22] ms
+27-Mar-2018 17:08:11.558 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:08:11.567 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:08:11.569 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1226 ms
+27-Mar-2018 17:09:51.615 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cgi-bin]
+27-Mar-2018 17:09:51.633 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin]
+27-Mar-2018 17:09:51.655 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin] has finished in [21] ms
+27-Mar-2018 17:10:11.662 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cgi-bin]
+27-Mar-2018 17:10:11.668 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin]
+27-Mar-2018 17:10:11.699 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin] has finished in [30] ms
+27-Mar-2018 17:10:51.713 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/cgi-bin]
+27-Mar-2018 17:10:51.714 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] has started
+27-Mar-2018 17:10:51.737 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] is completed
+27-Mar-2018 17:11:01.744 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/cgi-bin]
+27-Mar-2018 17:11:01.745 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] has started
+27-Mar-2018 17:11:01.764 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] is completed
+27-Mar-2018 17:11:11.772 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/cgi-bin]
+27-Mar-2018 17:11:11.773 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] has started
+27-Mar-2018 17:11:11.803 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] is completed
+27-Mar-2018 17:11:41.817 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/cgi-bin]
+27-Mar-2018 17:11:41.818 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] has started
+27-Mar-2018 17:11:41.854 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/cgi-bin] is completed
+27-Mar-2018 17:11:52.420 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Mar-2018 17:11:52.421 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:11:52.481 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:11:52.534 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Mar-2018 17:11:52.578 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:11:52.584 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:11:52.589 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:11:52.590 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:12:04.259 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+27-Mar-2018 17:12:04.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+27-Mar-2018 17:12:04.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+27-Mar-2018 17:12:04.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Mar-2018 17:12:04.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.4
+27-Mar-2018 17:12:04.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-Mar-2018 17:12:04.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre
+27-Mar-2018 17:12:04.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_141-b15
+27-Mar-2018 17:12:04.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2018 17:12:04.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:12:04.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:12:04.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/conf/logging.properties
+27-Mar-2018 17:12:04.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2018 17:12:04.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2018 17:12:04.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2018 17:12:04.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Mar-2018 17:12:04.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:12:04.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:12:04.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/temp
+27-Mar-2018 17:12:04.268 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wangxiaolong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2018 17:12:04.481 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:12:04.528 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 17:12:04.541 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:12:04.543 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 17:12:04.544 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 853 ms
+27-Mar-2018 17:12:04.583 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Mar-2018 17:12:04.584 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+27-Mar-2018 17:12:04.600 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs]
+27-Mar-2018 17:12:05.035 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs] has finished in [434] ms
+27-Mar-2018 17:12:05.035 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager]
+27-Mar-2018 17:12:05.098 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager] has finished in [62] ms
+27-Mar-2018 17:12:05.102 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples]
+27-Mar-2018 17:12:05.526 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples] has finished in [424] ms
+27-Mar-2018 17:12:05.527 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT]
+27-Mar-2018 17:12:05.549 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT] has finished in [23] ms
+27-Mar-2018 17:12:05.550 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin]
+27-Mar-2018 17:12:05.578 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/cgi-bin] has finished in [28] ms
+27-Mar-2018 17:12:05.579 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager]
+27-Mar-2018 17:12:05.604 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager] has finished in [25] ms
+27-Mar-2018 17:12:05.608 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:12:05.616 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:12:05.619 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1075 ms
+27-Mar-2018 17:13:46.158 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cgi-bin]
+27-Mar-2018 17:14:15.464 警告 [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:14:15.465 警告 [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:14:15.466 警告 [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:14:15.466 警告 [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:14:18.230 警告 [Thread-7] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:14:18.231 警告 [Thread-7] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:14:18.232 警告 [Thread-7] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:14:18.232 警告 [52] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:14:19.964 警告 [Thread-8] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:14:19.964 警告 [Thread-8] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:14:19.965 警告 [Thread-8] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:14:19.965 警告 [54] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:14:26.777 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Mar-2018 17:14:26.778 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:14:26.782 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:14:26.835 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Mar-2018 17:14:26.852 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:14:26.856 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:14:26.857 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:14:26.858 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:14:36.036 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+27-Mar-2018 17:14:36.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+27-Mar-2018 17:14:36.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+27-Mar-2018 17:14:36.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Mar-2018 17:14:36.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.4
+27-Mar-2018 17:14:36.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-Mar-2018 17:14:36.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre
+27-Mar-2018 17:14:36.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_141-b15
+27-Mar-2018 17:14:36.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2018 17:14:36.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:14:36.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:14:36.042 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/conf/logging.properties
+27-Mar-2018 17:14:36.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2018 17:14:36.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2018 17:14:36.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2018 17:14:36.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Mar-2018 17:14:36.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:14:36.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6
+27-Mar-2018 17:14:36.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/temp
+27-Mar-2018 17:14:36.044 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wangxiaolong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2018 17:14:36.222 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:14:36.250 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 17:14:36.259 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:14:36.260 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2018 17:14:36.261 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 752 ms
+27-Mar-2018 17:14:36.294 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Mar-2018 17:14:36.295 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+27-Mar-2018 17:14:36.307 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs]
+27-Mar-2018 17:14:36.776 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/docs] has finished in [468] ms
+27-Mar-2018 17:14:36.776 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager]
+27-Mar-2018 17:14:36.827 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/manager] has finished in [51] ms
+27-Mar-2018 17:14:36.828 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples]
+27-Mar-2018 17:14:37.209 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/examples] has finished in [382] ms
+27-Mar-2018 17:14:37.210 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT]
+27-Mar-2018 17:14:37.236 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT] has finished in [26] ms
+27-Mar-2018 17:14:37.236 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager]
+27-Mar-2018 17:14:37.259 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/host-manager] has finished in [22] ms
+27-Mar-2018 17:14:37.262 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2018 17:14:37.273 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2018 17:14:37.277 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1015 ms
+27-Mar-2018 17:14:37.384 警告 [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:14:37.385 警告 [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:14:37.385 警告 [Thread-6] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:14:37.385 警告 [47] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:14:42.579 警告 [Thread-7] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:14:42.581 警告 [Thread-7] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:14:42.581 警告 [Thread-7] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:14:42.582 警告 [48] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:16:04.655 警告 [Thread-13] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:16:04.656 警告 [Thread-13] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:16:04.656 警告 [Thread-13] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:16:04.657 警告 [55] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:17:38.226 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 8, near """]
+27-Mar-2018 17:17:38.227 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 3)]
+27-Mar-2018 17:17:38.227 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:38.228 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 12, near """"]
+27-Mar-2018 17:17:38.228 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:38.228 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 21, near """]
+27-Mar-2018 17:17:38.228 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 12)]
+27-Mar-2018 17:17:38.228 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:38.229 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 23, near """"]
+27-Mar-2018 17:17:38.229 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:38.229 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 25, near """]
+27-Mar-2018 17:17:38.229 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 23)]
+27-Mar-2018 17:17:38.229 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:38.229 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 25, near """""]
+27-Mar-2018 17:17:38.230 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing operator before ""?)]
+27-Mar-2018 17:17:38.230 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 29, near """"]
+27-Mar-2018 17:17:38.230 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:38.230 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, near "<Directory ""]
+27-Mar-2018 17:17:38.230 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 29)]
+27-Mar-2018 17:17:38.230 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:38.231 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 8, near """]
+27-Mar-2018 17:17:38.231 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:17:38.231 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:17:38.231 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:17:38.231 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/D" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:38.231 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line // string starting on line 45)]
+27-Mar-2018 17:17:38.231 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:38.231 警告 [Thread-14] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/e" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:38.232 警告 [57] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/t" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:38.232 警告 [57] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:38.232 警告 [57] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/y" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:38.232 警告 [57] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi has too many errors.]
+27-Mar-2018 17:17:38.233 警告 [57] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [32] lines on stderr
+27-Mar-2018 17:17:40.830 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 8, near """]
+27-Mar-2018 17:17:40.830 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 3)]
+27-Mar-2018 17:17:40.831 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:40.831 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 12, near """"]
+27-Mar-2018 17:17:40.831 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:40.831 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 21, near """]
+27-Mar-2018 17:17:40.832 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 12)]
+27-Mar-2018 17:17:40.832 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:40.832 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 23, near """"]
+27-Mar-2018 17:17:40.832 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:40.832 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 25, near """]
+27-Mar-2018 17:17:40.832 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 23)]
+27-Mar-2018 17:17:40.832 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 25, near """""]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing operator before ""?)]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 29, near """"]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, near "<Directory ""]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 29)]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 8, near """]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/D" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:40.833 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line // string starting on line 45)]
+27-Mar-2018 17:17:40.834 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:40.834 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/e" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:40.834 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/t" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:40.834 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:40.834 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/y" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:17:40.834 警告 [Thread-15] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi has too many errors.]
+27-Mar-2018 17:17:40.834 警告 [58] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [32] lines on stderr
+27-Mar-2018 17:18:58.060 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 8, near """]
+27-Mar-2018 17:18:58.062 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 3)]
+27-Mar-2018 17:18:58.062 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:18:58.062 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 12, near """"]
+27-Mar-2018 17:18:58.062 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:18:58.062 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 21, near """]
+27-Mar-2018 17:18:58.062 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 12)]
+27-Mar-2018 17:18:58.062 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:18:58.062 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 23, near """"]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 25, near """]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 23)]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 25, near """""]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing operator before ""?)]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 29, near """"]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, near "<Directory ""]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 29)]
+27-Mar-2018 17:18:58.063 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:18:58.064 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 8, near """]
+27-Mar-2018 17:18:58.064 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:18:58.064 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:18:58.064 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:18:58.064 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/D" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:18:58.064 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line // string starting on line 45)]
+27-Mar-2018 17:18:58.064 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:18:58.064 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/e" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:18:58.065 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/t" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:18:58.065 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:18:58.065 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/y" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:18:58.065 警告 [Thread-16] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi has too many errors.]
+27-Mar-2018 17:18:58.066 警告 [60] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [32] lines on stderr
+27-Mar-2018 17:19:00.564 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 8, near """]
+27-Mar-2018 17:19:00.564 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 3)]
+27-Mar-2018 17:19:00.564 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:19:00.564 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 12, near """"]
+27-Mar-2018 17:19:00.565 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:19:00.565 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 21, near """]
+27-Mar-2018 17:19:00.565 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 12)]
+27-Mar-2018 17:19:00.565 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 23, near """"]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 25, near """]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 23)]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 25, near """""]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing operator before ""?)]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 29, near """"]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:19:00.566 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, near "<Directory ""]
+27-Mar-2018 17:19:00.567 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 29)]
+27-Mar-2018 17:19:00.567 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:19:00.567 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 8, near """]
+27-Mar-2018 17:19:00.567 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:19:00.567 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:19:00.567 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 45, at end of line]
+27-Mar-2018 17:19:00.567 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/D" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:19:00.567 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line // string starting on line 45)]
+27-Mar-2018 17:19:00.567 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:19:00.568 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/e" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:19:00.568 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/t" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:19:00.568 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:19:00.568 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/y" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi line 50, at end of line]
+27-Mar-2018 17:19:00.568 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.cgi has too many errors.]
+27-Mar-2018 17:19:00.569 警告 [Thread-17] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [32] lines on stderr
+27-Mar-2018 17:20:32.580 警告 [Thread-23] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:20:32.581 警告 [Thread-23] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:20:32.581 警告 [Thread-23] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:20:32.582 警告 [Thread-23] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:20:35.241 警告 [Thread-24] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:20:35.241 警告 [Thread-24] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:20:35.242 警告 [Thread-24] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:20:35.242 警告 [Thread-24] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:20:43.158 警告 [Thread-25] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:20:43.160 警告 [Thread-25] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:20:43.160 警告 [Thread-25] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:20:43.160 警告 [Thread-25] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:21:23.674 警告 [Thread-26] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:21:23.674 警告 [Thread-26] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:21:23.674 警告 [Thread-26] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:21:23.675 警告 [70] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:22:13.120 警告 [Thread-27] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:22:13.121 警告 [Thread-27] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:22:13.121 警告 [Thread-27] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:22:13.122 警告 [71] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:22:21.960 警告 [Thread-28] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:22:21.961 警告 [Thread-28] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:22:21.961 警告 [Thread-28] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:22:21.962 警告 [72] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:22:35.380 警告 [Thread-29] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:22:35.381 警告 [Thread-29] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:22:35.381 警告 [Thread-29] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:22:35.383 警告 [Thread-29] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:23:12.470 警告 [Thread-30] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Bareword found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 4, near ""<meta charset="utf"]
+27-Mar-2018 17:23:12.470 警告 [Thread-30] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing operator before utf?)]
+27-Mar-2018 17:23:12.470 警告 [Thread-30] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 4, near "8">""]
+27-Mar-2018 17:23:12.471 警告 [Thread-30] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing operator before ">"?)]
+27-Mar-2018 17:23:12.471 警告 [Thread-30] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:23:12.471 警告 [74] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:23:12.471 警告 [74] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:23:12.473 警告 [74] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [7] lines on stderr
+27-Mar-2018 17:23:20.848 警告 [Thread-31] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Bareword found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 4, near ""<meta charset="utf"]
+27-Mar-2018 17:23:20.848 警告 [Thread-31] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing operator before utf?)]
+27-Mar-2018 17:23:20.849 警告 [Thread-31] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 4, near "8">""]
+27-Mar-2018 17:23:20.849 警告 [75] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing operator before ">"?)]
+27-Mar-2018 17:23:20.849 警告 [75] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:23:20.849 警告 [75] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:23:20.849 警告 [75] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:23:20.850 警告 [75] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [7] lines on stderr
+27-Mar-2018 17:23:46.770 警告 [Thread-32] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:23:46.770 警告 [Thread-32] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:23:46.770 警告 [Thread-32] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:23:46.772 警告 [Thread-32] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:23:53.231 警告 [Thread-33] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:23:53.232 警告 [Thread-33] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:23:53.232 警告 [Thread-33] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:23:53.233 警告 [Thread-33] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:25:01.486 警告 [Thread-34] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near "print"]
+27-Mar-2018 17:25:01.487 警告 [Thread-34] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:25:01.488 警告 [79] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [2] lines on stderr
+27-Mar-2018 17:26:33.722 警告 [Thread-38] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:26:33.722 警告 [Thread-38] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:26:33.722 警告 [Thread-38] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:26:33.723 警告 [83] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:26:40.046 警告 [Thread-39] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:26:40.046 警告 [Thread-39] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:26:40.046 警告 [Thread-39] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:26:40.047 警告 [84] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:27:02.978 警告 [Thread-40] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 4, near ")]
+27-Mar-2018 17:27:02.978 警告 [Thread-40] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:27:02.978 警告 [Thread-40] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:27:02.979 警告 [85] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:27:38.365 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 8, near """]
+27-Mar-2018 17:27:38.367 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 3)]
+27-Mar-2018 17:27:38.368 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:27:38.368 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 12, near """"]
+27-Mar-2018 17:27:38.368 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 21, near """]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 12)]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 23, near """"]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 25, near """]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 23)]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 25, near """""]
+27-Mar-2018 17:27:38.369 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing operator before ""?)]
+27-Mar-2018 17:27:38.370 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 29, near """"]
+27-Mar-2018 17:27:38.370 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:27:38.370 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [String found where operator expected at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 45, near "<Directory ""]
+27-Mar-2018 17:27:38.370 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line "" string starting on line 29)]
+27-Mar-2018 17:27:38.370 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [	(Missing semicolon on previous line?)]
+27-Mar-2018 17:27:38.370 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 8, near """]
+27-Mar-2018 17:27:38.370 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 45, at end of line]
+27-Mar-2018 17:27:38.370 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 45, at end of line]
+27-Mar-2018 17:27:38.371 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/w" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 45, at end of line]
+27-Mar-2018 17:27:38.371 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/D" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 50, at end of line]
+27-Mar-2018 17:27:38.371 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  (Might be a runaway multi-line // string starting on line 45)]
+27-Mar-2018 17:27:38.371 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 50, at end of line]
+27-Mar-2018 17:27:38.371 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/e" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 50, at end of line]
+27-Mar-2018 17:27:38.371 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/t" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 50, at end of line]
+27-Mar-2018 17:27:38.371 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/r" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 50, at end of line]
+27-Mar-2018 17:27:38.371 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Unknown regexp modifier "/y" at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 50, at end of line]
+27-Mar-2018 17:27:38.371 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [/Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py has too many errors.]
+27-Mar-2018 17:27:38.372 警告 [Thread-41] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [32] lines on stderr
+27-Mar-2018 17:27:52.852 警告 [Thread-42] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:27:52.852 警告 [Thread-42] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:27:52.852 警告 [Thread-42] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:27:52.853 警告 [Thread-42] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:28:00.665 警告 [Thread-43] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 3, near ")]
+27-Mar-2018 17:28:00.665 警告 [Thread-43] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:28:00.665 警告 [Thread-43] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:28:00.666 警告 [Thread-43] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:28:33.822 警告 [Thread-44] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:28:33.823 警告 [Thread-44] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:28:33.823 警告 [Thread-44] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:28:33.825 警告 [Thread-44] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:28:39.915 警告 [Thread-45] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near ")]
+27-Mar-2018 17:28:39.916 警告 [Thread-45] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [print"]
+27-Mar-2018 17:28:39.916 警告 [Thread-45] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:28:39.916 警告 [90] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [3] lines on stderr
+27-Mar-2018 17:28:50.441 警告 [Thread-46] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [syntax error at /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py line 2, near "print"]
+27-Mar-2018 17:28:50.441 警告 [91] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Execution of /Users/wangxiaolong/Downloads/Download/apache-tomcat-9.0.6/webapps/ROOT/WEB-INF/cgi/t3_cgi.py aborted due to compilation errors.]
+27-Mar-2018 17:28:50.443 警告 [91] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [2] lines on stderr
